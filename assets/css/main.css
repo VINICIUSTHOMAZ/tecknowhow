@@ -35,6 +35,7 @@ ol, ul {
 
 blockquote, q {
 	quotes: none;
+	
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -3131,6 +3132,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			text-align: justify;
 		}
 
 		#header.alt {
@@ -3205,6 +3207,7 @@ input, select, textarea {
 				#header p {
 					font-size: 1em;
 					letter-spacing: 0;
+					text-align: justify;
 				}
 
 					#header p br {
@@ -3733,7 +3736,7 @@ input, select, textarea {
 
 /* Footer */
 
-		#footer .copyright {
+		.foot{
 			width: 100%;
 			font-size: 1em;
 			text-align: center;

@@ -17,6 +17,28 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/tec.png" alt="" /></span>
 						<h1>Template REVIT Arquitetura</h1>
+						<iframe id="player" width="720" height="420" src="https://www.youtube.com/embed/NeEVuv6jhaU?" 
+						title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+
+	<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+		<script type="text/javascript">
+			  
+		  function onYouTubeIframeAPIReady() {
+  		  var player;
+          player = new YT.Player('player', {
+          width: 1280,
+          height: 720,
+		  videoId: 'NeEVuv6jhaU',
+		  playerVars: {"autoplay":1,"controls": 0},
+          events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange,
+      'onError': onPlayerError
+    }
+  });
+}
+		</script>
+	
 						<p><b>Devido à necessidade de projetos mais elaborados, desenvolvemos um template que atenda os requisitos de 
 						um projeto arquitetônico profissional. Com ele, seu processo de desenvolvimento fica 3x mais rápido.</b> <br />
 						</p>
